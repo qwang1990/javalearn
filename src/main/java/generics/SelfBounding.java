@@ -34,6 +34,7 @@ class F extends SelfBounded {}
 public class SelfBounding {
     public static void main(String[] args) {
         A a = new A();
+        B b = new B();
         a.set(new A());
         a = a.set(new A()).get();
         a = a.get();
