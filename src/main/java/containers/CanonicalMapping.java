@@ -44,7 +44,7 @@ class Value extends Element {
 
 public class CanonicalMapping {
     public static void main(String[] args) {
-        int size = 100;
+        int size = 10;
         Key[] keys = new Key[size];
         WeakHashMap<Key,Value> map =
                 new WeakHashMap<Key, Value>();
